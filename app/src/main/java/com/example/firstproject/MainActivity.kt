@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.example.firstproject.irregularverb.IrregularVerb
+import com.example.firstproject.irregularverb.IrregularListActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         egg3.setOnClickListener{
-            val intent = Intent(this, IrregularVerb::class.java)
+            val intent = Intent(this, IrregularListActivity::class.java)
             startActivity(intent)
         }
 

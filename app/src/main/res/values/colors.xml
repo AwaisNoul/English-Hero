@@ -5,4 +5,12 @@
     <color name="red">#F80000</color>
     <color name="skyblue">#175a8e</color>
     <color name="statusbarcolor">#333e50</color>
+    <color name="statusbarcolor1">#BEAB92</color>
+    <color name="gray">#AFADAD</color>
+    <color name="correct_bg">#8EEB92</color>
+    <color name="correct_border">#069F00</color>
+    <color name="correct_text">#36AE7C</color>
+    <color name="wrong_text">#500808</color>
+    <color name="your_desired_color">#FF5733</color>
+    <color name="default_text_color">#000000</color>
 </resources>

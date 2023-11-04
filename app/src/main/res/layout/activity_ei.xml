@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,131 +9,145 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="@dimen/_10sdp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="10dp"
         >
 
         <TextView
+            android:id="@+id/by"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="By"
             android:textStyle="bold"
+            android:layout_weight="1"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg"
             />
 
         <TextView
+            android:id="@+id/cry"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Cry"
             android:textStyle="bold"
+            android:layout_weight="1"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg"
             />
 
-
         <TextView
+            android:id="@+id/fry"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Fry"
+            android:layout_weight="1"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg"
             />
 
         <TextView
+            android:id="@+id/light"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Light"
+            android:layout_weight="1"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg1"
             />
 
         <TextView
+            android:id="@+id/sight"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Sight"
+            android:layout_weight="1"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg1"
             />
 
         <TextView
+            android:id="@+id/right"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Right"
+            android:layout_weight="1"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg1"
             />
 
         <TextView
+            android:id="@+id/lie"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Lie"
+            android:layout_weight="1"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg2"
             />
 
         <TextView
+            android:id="@+id/pie"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Pie"
+            android:layout_weight="1"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg2"
             />
 
         <TextView
+            android:id="@+id/die"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Die"
+            android:layout_weight="1"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:textAlignment="center"
-            android:padding="@dimen/_13sdp"
+            android:padding="@dimen/_10sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:background="@drawable/textview_bg2"
             />
     </LinearLayout>
 
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

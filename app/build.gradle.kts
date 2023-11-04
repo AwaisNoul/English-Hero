@@ -38,6 +38,8 @@ android {
 
 dependencies {
 
+    implementation("com.nex3z:flow-layout:1.3.3")
+
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.8.0")
@@ -49,4 +51,8 @@ dependencies {
     implementation("de.hdodenhof:circleimageview:3.1.0")
     // sdp dependence
     implementation("com.intuit.sdp:sdp-android:1.1.0")
+    //glide
+    implementation("com.github.bumptech.glide:glide:4.15.0")
+    // flow layout
+    implementation("com.nex3z:flow-layout:1.2.1")
 }
