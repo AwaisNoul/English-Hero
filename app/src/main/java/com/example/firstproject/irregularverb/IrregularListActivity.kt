@@ -40,7 +40,5 @@ class IrregularListActivity : AppCompatActivity() {
         recycler_view.adapter = IrregularListAdapter(this,list)
         recycler_view.layoutManager = LinearLayoutManager(this)
 
-
-
     }
 }

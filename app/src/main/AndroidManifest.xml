@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +16,13 @@
         android:theme="@style/Theme.FirstProject"
         tools:targetApi="31">
         <activity
-            android:name=".irregularverb.VideoEndWithT.VideoEndWithT"
+            android:name=".irregularverb.verbquiz.VerbQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".irregularverb.videoEndWithT.VerbMore"
+            android:exported="false" />
+        <activity
+            android:name=".irregularverb.videoEndWithT.VideoEndWithT"
             android:exported="false" />
         <activity
             android:name=".irregularverb.IrregularListActivity"

@@ -125,6 +125,7 @@ class QuizView : AppCompatActivity() {
             question_image.setImageResource(currentQuestion.image)
             val audioResourceId = currentQuestion.audio
             val mediaPlayer = MediaPlayer.create(this, audioResourceId)
+
             question_image.setOnClickListener {
                 mediaPlayer.start()
             }

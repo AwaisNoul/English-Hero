@@ -18,7 +18,7 @@ class IrregularListAdapter(val context : Context, var list : List<String>):
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val view: View = inflater.inflate(R.layout.irregular_item_view, parent, false)
-        return IrregularListAdapter.MyViewHolder(view)
+        return MyViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
